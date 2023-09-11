@@ -5,7 +5,9 @@
   "description": "Node.js product console application",
   "main": "./src/server.js",
   "scripts": {
-    "start": "node ./src/server.js ",
+    "product:save": "node ./src/config/server.js",
+    "product:purchase": "node ./src/config/purchase.js",
+    "product:order": "node ./src/config/orders.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
